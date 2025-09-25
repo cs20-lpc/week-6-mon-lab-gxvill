@@ -3,14 +3,14 @@
 #include <ctime>
 #include <iomanip>
 #include <iostream>
+//#include "function.hpp"
 using namespace std;
 
 /*******************************************************************************
  * Function prototype
 *******************************************************************************/
 
-template <typename T>
-T findMaxRecTail(const T[], const int, int = 0);
+int findMaxRecTail(const int[], const int, int = 0);
 
 /*******************************************************************************
  * Description:
@@ -61,4 +61,19 @@ int main() {
 
     // terminate
     return 0;
+}
+
+int findMaxRecTail(const int arr[], const int SIZE,int i){
+    //base case (when we get to the end)
+    if(i == SIZE){
+        return arr[i];
+    }
+
+    //recursive case
+    // call the function and increment i
+    int comp = findMaxRecTail(arr, SIZE, i + 1);
+    if(arr[i] > comp){
+        return arr[i];
+    }
+    return comp;
 }
