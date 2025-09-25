@@ -1,0 +1,94 @@
+./a.out
+----------------------------------------
+Maximum using Recursion: 130
+Should be 130 for the fixed array
+----------------------------------------
+
+----------------------------------------
+Maximum using Standard Algorithm: 9999
+Maximum using Recursion: 9999
+----------------------------------------
+
+./b.out
+----------------------------------------
+Trying n = 1
+
+Moving disc 1 from Rod #1 to Rod #3
+
+Number of Moves = 1
+----------------------------------------
+Trying n = 2
+
+Moving disc 1 from Rod #1 to Rod #2
+Moving disc 2 from Rod #1 to Rod #3
+Moving disc 1 from Rod #2 to Rod #3
+
+Number of Moves = 3
+----------------------------------------
+Trying n = 3
+
+Moving disc 1 from Rod #1 to Rod #3
+Moving disc 2 from Rod #1 to Rod #2
+Moving disc 1 from Rod #3 to Rod #2
+Moving disc 3 from Rod #1 to Rod #3
+Moving disc 1 from Rod #2 to Rod #1
+Moving disc 2 from Rod #2 to Rod #3
+Moving disc 1 from Rod #1 to Rod #3
+
+Number of Moves = 7
+----------------------------------------
+Trying n = 4
+
+Moving disc 1 from Rod #1 to Rod #2
+Moving disc 2 from Rod #1 to Rod #3
+Moving disc 1 from Rod #2 to Rod #3
+Moving disc 3 from Rod #1 to Rod #2
+Moving disc 1 from Rod #3 to Rod #1
+Moving disc 2 from Rod #3 to Rod #2
+Moving disc 1 from Rod #1 to Rod #2
+Moving disc 4 from Rod #1 to Rod #3
+Moving disc 1 from Rod #2 to Rod #3
+Moving disc 2 from Rod #2 to Rod #1
+Moving disc 1 from Rod #3 to Rod #1
+Moving disc 3 from Rod #2 to Rod #3
+Moving disc 1 from Rod #1 to Rod #2
+Moving disc 2 from Rod #1 to Rod #3
+Moving disc 1 from Rod #2 to Rod #3
+
+Number of Moves = 15
+----------------------------------------
+Trying n = 5
+
+Moving disc 1 from Rod #1 to Rod #3
+Moving disc 2 from Rod #1 to Rod #2
+Moving disc 1 from Rod #3 to Rod #2
+Moving disc 3 from Rod #1 to Rod #3
+Moving disc 1 from Rod #2 to Rod #1
+Moving disc 2 from Rod #2 to Rod #3
+Moving disc 1 from Rod #1 to Rod #3
+Moving disc 4 from Rod #1 to Rod #2
+Moving disc 1 from Rod #3 to Rod #2
+Moving disc 2 from Rod #3 to Rod #1
+Moving disc 1 from Rod #2 to Rod #1
+Moving disc 3 from Rod #3 to Rod #2
+Moving disc 1 from Rod #1 to Rod #3
+Moving disc 2 from Rod #1 to Rod #2
+Moving disc 1 from Rod #3 to Rod #2
+Moving disc 5 from Rod #1 to Rod #3
+Moving disc 1 from Rod #2 to Rod #1
+Moving disc 2 from Rod #2 to Rod #3
+Moving disc 1 from Rod #1 to Rod #3
+Moving disc 3 from Rod #2 to Rod #1
+Moving disc 1 from Rod #3 to Rod #2
+Moving disc 2 from Rod #3 to Rod #1
+Moving disc 1 from Rod #2 to Rod #1
+Moving disc 4 from Rod #2 to Rod #3
+Moving disc 1 from Rod #1 to Rod #3
+Moving disc 2 from Rod #1 to Rod #2
+Moving disc 1 from Rod #3 to Rod #2
+Moving disc 3 from Rod #1 to Rod #3
+Moving disc 1 from Rod #2 to Rod #1
+Moving disc 2 from Rod #2 to Rod #3
+Moving disc 1 from Rod #1 to Rod #3
+
+Number of Moves = 31
